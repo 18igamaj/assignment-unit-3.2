@@ -13,20 +13,20 @@ for (let i=0; i<4; i++) {
 // 1.a. TODO: Write a for loop to console.log the numbers from 0 to 5 
 //   - Which part of the example loop do you need to change to do this?
 console.log('count from 0 to 5');
-for( let i=0; i<5; i++){
+for( let i=0; i<=5; i++){
   console.log( 'in for loop. i:' , i);
 }
 
 // 1.b. TODO: Write a for loop to console.log the numbers from 3 to 5
 //   - Which part of the example loop do you need to change to do this?
 console.log('count from 3 to 5');
-for( let i=3; i<5; i++){
+for( let i=3; i<=5; i++){
   console.log('of the for loop i:' , i);
 }
 // 1.c. TODO: Write a for loop to console.log EVEN numbers from 2 to 10
 //   - Which part of the example loop do you need to change to do this?
 console.log('count even numbers from 2 to 10 (2, 4, 6, 8, 10):');
-for( let i=0; i<12; i+2){
+for( let i=2; i<12; i+2){
   console.log('of even i:' , i+=2);
 }
 
@@ -41,8 +41,8 @@ let stars = ['Polaris', 'Gacrux', 'Formalhaut', 'Rigel', 'Deneb']
 // 2.a. TODO: Write a for of loop to console.log each star in the 'stars' array
 console.log('Some stars:');
 
-for( i=0; i<stars.length; i++) {
-  console.log('loop of', stars[i]);
+for( prominet of stars) {
+  console.log('prominet of', prominet);
 }
 
 // 3. While loops  
@@ -60,7 +60,7 @@ while(i<stars.length){
 console.log('count from 0 to 5');
 i=0
 const max = 5
-while(i<max){
+while(i<= max){
   console.log('count up to:' , i);
   i++; 
 }
